@@ -1,0 +1,8 @@
+nome = input('Digite seu nome completo: ')
+semespaco = nome.replace(' ', '')
+primeiro = nome.split()
+print('O nome em maiúsculas: {}'.format(nome.upper()))
+print('O nome em minúsuclas: {}'.format(nome.lower()))
+#print('Este nome possui {} letras'.format(len(semespaco)))
+print('Seu nome tem ao todo {} letras'.format(len(nome) - nome.count(' ')))
+print('O primeiro nome da pessoa possui {} letras'.format(len(primeiro[0])))
